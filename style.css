@@ -1,0 +1,61 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header a {
+    color: #a3c2c2;
+    text-decoration: none;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    .project {
+        padding: 5px;
+    }
+    
+    .read-more, .collapse {
+        font-size: 0.8em;
+    }
+}
+/* Add more styles as needed */
+
